@@ -1,11 +1,11 @@
-require('./xyz.js');
- const {x,calculateSum} = require('./sum.js')
+require('./xyz');
+const {x ,sum} = require('./sum');
+const data = require('./data.json');
+let name = "Asit Kumar";
+console.log(data);
 
-var name =  "Asit kumar";
-var a = 10 ; 
-var b = 20;
-calculateSum(a,b);
-
-
-console.log(name); // Asit kumar
+let  a =5;
+let b = 10;
+// console.log(a+b);
+sum(a,b);
 console.log(x);
