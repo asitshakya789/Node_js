@@ -9,3 +9,4 @@ let b = 10;
 // console.log(a+b);
 sum(a,b);
 console.log(x);
+console.log("asit");
