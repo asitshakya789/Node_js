@@ -1,0 +1,7 @@
+{
+    "name":"Asit kumar",
+    "age": 25,
+    "city": "Kolkata",
+    "hobbies": ["Reading", "Coding", "Travelling"],
+    "isStudent": true
+}
