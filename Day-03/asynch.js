@@ -1,11 +1,22 @@
-const fs = require('fs');
+// Function that returns a promise
+function fetchData() {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            const data = "Data fetched!";
+            resolve(data);
+        }, 2000);
+    });
+}
 
-console.log("Start reading file...");
-fs.readFile('example.txt', 'utf8', (err, data) => {
-    if (err) {
-        console.error("Error reading file", err);
-        return;
+// Using async/await to handle the asynchronous operation
+async function getData() {
+    try {
+        console.log("Fetching data...");
+        const data = await fetchData();
+        console.log(data);
+    } catch (error) {
+        console.error("Error fetching data:", error);
     }
-    console.log(data);
-});
-console.log("File read initiated...");
+}
+
+getData();
