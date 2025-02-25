@@ -5,6 +5,7 @@ const a =40;
  
 setImmediate(()=>{
     console.log('Immediate 1');
+    
 });
 Promise.resolve(()=>{
     console.log('Promise 1');
@@ -20,6 +21,7 @@ process.nextTick(()=>{
 });
 function printa(){
     console.log('print a', a);
+
 }
 printa();
 console.log("code is ended ");
