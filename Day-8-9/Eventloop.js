@@ -8,7 +8,7 @@ fs.readFile("file.txt",'utf-8' , ()=>{
     console.log('File Read');   
 });
 
-setTimeout(()=>{
+setTimeout(() =>{
     console.log('Timeexpires');
 },0);
 
