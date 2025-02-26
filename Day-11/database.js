@@ -1,0 +1,1 @@
+const URI ="mongodb+srv://asitshakya789:<db_password>@namastenodejs.1oj26.mongodb.net/?retryWrites=true&w=majority&appName=NamasteNodejs"
